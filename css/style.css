@@ -1,8 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-    font-weight: normal;
+.bodyr{
+    font-family: 'DM Sans', sans-serif;
 }
 
 .content{
@@ -90,15 +87,105 @@
     border: 1px solid #5454D4;
     margin-left: 35px;
 }
+.subscribe{
+    margin-bottom: 85px;
+}
+.subscribe_tilte{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.531474px;
+    color: #000000;
+    margin-bottom: 30px
+}
+.amg{
+    margin-bottom: 85px
+}
+.input{
+    width: 302px;
+    height: 60px;
+    border: 1px solid #7087FF;
+    border-radius: 10px;
+    padding-left: 14px;
+    margin-right: 39px;
+}
+.input::placeholder, .input{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.531474px;
+    color: #000000;
+}
+.input:focus{
+    outline: none;
+}
+.plan{
+    margin-bottom: 132px;
+}
+.plan_title{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -1.03448px;
+    color: #19191B;
+    max-width: 504px;
+    margin-bottom: 110px; 
+}
+.item{
+    width: 330px;
+    background: #F8F8F8;
+    border-radius: 10px;
+    text-align: center;
+    padding: 34px 0  27px;
+}
+.item:hover{
+    transition: 500ms;
+    background: #FF7143;
+    box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+}
+.item_text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.562737px;
+    color: #696871;
+}
+.item:hover .item_text, .item:hover .item_title, .item:hover .item_li{
+    transition: 500ms;
+    color: white;
+}
+.item_title{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 56px;
+    letter-spacing: -1.03448px;
+    color: #1D293F;
+    margin: 22px 0 28px;
+}
+.item_title span{
+    font-size: 28px
+}
+.item_li{
+    list-style: none;
+    font-size: 17px;
+    line-height: 50px;
+    letter-spacing: -0.531474px;
+    color: #696871;
+}
 
-
-
-
-
-
-
-
-
+.button_item{
+    width: 285px;
+    background: white;
+    color: #5454d4;
+    margin-top: 36px;
+}
+.item:hover .button_item{
+    transition: 500ms;
+    background: #9F3919;
+    color: white
+}
 
 
 
